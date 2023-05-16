@@ -1,0 +1,110 @@
+body {
+	background-color: rgb(209, 228, 255);
+}
+
+h1, h2, p {
+	color: rgb(15, 42, 79);
+}
+
+h1, h2 {
+	font-family: 'Space Grotesk', sans-serif;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 50px;
+	text-justify: center;
+	letter-spacing: 10px;
+}
+
+h2 {
+	text-align: center;
+	font-weight: 450;
+}
+
+p {
+	text-justify: center;
+	font-family: avenir, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(247, 2, 178);
+	font-family: avenir, sans-serif;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+a:hover {
+	color: rgb(255, 255, 255);
+}
+
+.container {
+	width: 700px;
+	margin: 20px auto;
+	background-color: rgb(227, 239, 255);
+	border-radius: 50px;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.container #introduction {
+	text-align: center;
+	margin-top: 10px;
+}
+
+#introduction p {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+#profilepic {
+	width: 300px;
+	border-radius: 50%;
+	border: 2px solid rgb(247, 2, 178);
+}
+
+.card-white {
+	background-color: #ffffff;
+	border-radius: 25px;
+	padding: 10px 30px;
+	text-align: center;
+}
+
+.card-blue {
+	border-radius: 25px;
+	padding: 10px 30px;
+	text-align: center;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.btn-pink {
+	background-color: rgb(250, 220, 246);
+	padding: 15px;
+	border-radius: 12px;
+}
+
+
+div {
+	margin: 40px;
+	padding: 20px;
+}
